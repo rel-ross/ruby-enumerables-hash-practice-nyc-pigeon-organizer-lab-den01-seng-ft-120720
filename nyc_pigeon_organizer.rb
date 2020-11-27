@@ -10,6 +10,7 @@ value.each do |inner_key, names|
 end
 if !final_array[name][key]  
   final_array[name][key]= []
+  binding.pry
 end
 string_inner_key = inner_key.to_s
 final_array[name][key].push(string_inner_key)
